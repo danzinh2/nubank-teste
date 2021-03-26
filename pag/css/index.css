@@ -1,0 +1,62 @@
+*{ 
+        margin:0;
+        padding:0;
+    
+}
+body { 
+
+            background:url(/pag/imagens/cats.png);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            
+}
+
+#formulario .imagem { 
+
+            margin-left:540px;
+            width:250px;
+            
+}
+
+#formulario input{ 
+
+            margin-left:550px;
+            padding:10px;
+            border:1px solid #301d3f;
+            border-radius:30px;
+            font-size:18px; 
+            font-weight:500;
+            color: #2c173a;
+            text-align:center    
+}
+#formulario input:focus {
+    box-shadow: 0 0 0 0;
+    border:1px solid #301d3f;
+    outline: 0;
+}
+#formulario .login { 
+            margin-top:1px;
+}
+#formulario .senha { 
+            margin-top:6px;
+            font-size:8px;
+}
+#formulario .botao { 
+                width:150px;
+                height:30px;
+                border:1px solid black;
+                border-radius:30px;
+                margin-left:592px;
+                margin-top:10px;
+                background-color:#fffffff1;
+                font-size:13px;
+                font-weight:bold
+}
+#formulario .botao:hover{ 
+
+             background-color:#b651fab8;
+             cursor: pointer;
+             transition: all 0.4s linear;
+
+
+}
